@@ -28,7 +28,7 @@ int main()
       puts("You selected chars:");
       puts("Font 11x16:");
       for (char c = 'A'; c < 'D'; c++)
-	print_char_11x161(c);
+	print_char_11x16(c);
       puts("Font 8x12:");
       for (char c = 'A'; c < 'D'; c++)
         print_char_8x12(c);
