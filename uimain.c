@@ -28,13 +28,13 @@ int main()
       puts("You selected chars:");
       puts("Font 11x16:");
       for (char c = 'A'; c < 'D'; c++)
-	print_char_11x16(c);
+	print_char_11x161(c);
       puts("Font 8x12:");
       for (char c = 'A'; c < 'D'; c++)
-	print_char_8x12(c);
+        print_char_8x12(c);
       puts("Font 5x7:");
       for (char c = 'A'; c < 'D'; c++)
-	print_char_5x7(c);
+      print_char_5x7(c);
       break;
     case '>':
       puts("You selected arrow:");
